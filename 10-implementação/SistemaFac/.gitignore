@@ -1,0 +1,9 @@
+packages/
+SistemaFac/bin/
+SistemaFac/obj/
+Model/bin/
+Model/obj/
+Negocio/bin/
+Negocio/obj/
+Persistencia/bin/
+Persistencia/obj/

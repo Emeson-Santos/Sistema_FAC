@@ -1,0 +1,13 @@
+packages/
+SistemaFac/bin/
+SistemaFac/obj/
+SistemaFac.Testes/bin/
+SistemaFac.Testes/obj/
+Model/bin/
+Model/obj/
+Negocio/bin/
+Negocio/obj/
+Persistencia/bin/
+Persistencia/obj/
+TestePersistencia/bin/
+TestePersistencia/obj/
