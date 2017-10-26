@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Persistencia\RepositorioAdministrador.cs" />
     <Compile Include="Persistencia\RepositorioConvite.cs" />
     <Compile Include="Persistencia\RepositorioDestinatario.cs" />
     <Compile Include="Persistencia\RepositorioEmpresa.cs" />

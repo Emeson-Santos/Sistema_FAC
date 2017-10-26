@@ -28,6 +28,7 @@ namespace Model.Models
         }
 
         public Servico() : this(0, null) { }
+
         [Key]
         public int Id
         {

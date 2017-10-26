@@ -1,6 +1,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
@@ -22,24 +23,29 @@ namespace Model.Models
             this.Destinatarios = Destinatarios;
         }
 
+        [Required(ErrorMessage = "Obrigatorio Confirmar")] //Obrigatoria      
+        [Display(Name = "Confirme")] 
         public bool Confirmado
         {
             get { return confirmado; }
             set { confirmado = value; }
         }
-
+       
         public List<Destinatario> Destinatarios
         {
             get { return destinatarios; }
             set { destinatarios = value; }
         }
 
+        [Required(ErrorMessage = "Obrigatorio informar o endereço!")] //Obrigatoria      
+        [Display(Name = "Endereço: ")]
         public string Endereco
         {
             get { return endereco; }
             set { endereco = value; }
         }
-
+        [Required(ErrorMessage = "Obrigatorio Confirmar o Link de Localização!")] //Obrigatoria      
+        [Display(Name = "Link de Localização:")]
         public string LinkLocalização
         {
             get { return linkLocalizacao; }

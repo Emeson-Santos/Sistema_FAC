@@ -1,6 +1,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 namespace Model.Models {
@@ -15,13 +16,15 @@ namespace Model.Models {
             this.descricao = descricao;
             this.id = id;
         }
+        [Key]
         public int Id
         {
             get { return id; }
             set { id = value; }
         }
 
-     
+        [Required(ErrorMessage = "Por favor, Informe o item da Lista!")]
+        [Display(Name = "presente:")]
         public string Descricao
         {
             get { return descricao; }

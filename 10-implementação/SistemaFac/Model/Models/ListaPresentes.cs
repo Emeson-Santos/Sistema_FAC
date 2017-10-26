@@ -1,6 +1,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
@@ -20,6 +21,7 @@ namespace Model.Models {
             this.itens = itens;
         }
 
+        [Key]
         public int Id
         {
             get { return id; }

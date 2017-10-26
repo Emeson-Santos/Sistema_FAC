@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1.Business
+namespace Negocio.Business
 {
     class GerenciadorItemListaPresentes
     {

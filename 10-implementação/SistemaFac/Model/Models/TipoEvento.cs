@@ -34,7 +34,8 @@ namespace Model.Models
             get { return id; }
             set { id = value; }
         }
-
+        [Required(ErrorMessage = "Por favor, Informe o Tipo de Evento!")]
+        [Display(Name = "Tipo de Evento:")]
         public string Descricao
         {
           get { return descricao; }

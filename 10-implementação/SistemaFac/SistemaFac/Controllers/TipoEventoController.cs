@@ -31,9 +31,8 @@ namespace SistemasFAC.Controllers
         }
 
         public ActionResult Create()
-        {
-             
-            ViewBag.ListaDescricao = new SelectList(gerenciadorS.ObterTodos(), selectedValue: "Id");
+        {             
+            ViewBag.ListaDescricao = new SelectList(gerenciadorS.ObterTodos(), "Id", "Descricao");
             return View();
         }
         public ActionResult Details(int? id)
@@ -78,7 +77,7 @@ namespace SistemasFAC.Controllers
         }
         // POST: Usuario/Edit/5
         [HttpPost]
-        public ActionResult Edit(TipoEvento tipoEvento) //FormCollection collection)
+        public ActionResult Edit(TipoEvento tipoEvento)
         {
             try
             {

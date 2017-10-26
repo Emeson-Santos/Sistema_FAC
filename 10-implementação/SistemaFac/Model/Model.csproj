@@ -63,6 +63,7 @@
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Account\AccountModel.cs" />
+    <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\Exceptions\ControllerException.cs" />
     <Compile Include="Models\Exceptions\ModelException.cs" />
     <Compile Include="Models\Exceptions\NegocioException.cs" />
