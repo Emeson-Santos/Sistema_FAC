@@ -1,6 +1,7 @@
 ﻿using Model.Models;
 using Negocio.Business;
 using SistemaFac.Util;
+//using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 using System.Web.Security;
 namespace SistemaFac.Controllers
@@ -13,12 +14,12 @@ namespace SistemaFac.Controllers
         {
             gerenciador = new GerenciadorUsuario();
         }
-
+       [HttpPost]
         public ActionResult Index()
         {
             return View(gerenciador.ObterTodos());
         }
-
+        [HttpPost]
         public ActionResult Details(int? id)
         {
             if (id.HasValue)
@@ -29,6 +30,7 @@ namespace SistemaFac.Controllers
             }
             return RedirectToAction("Index");
         }
+
         public ActionResult Create()
         {
             return View();
