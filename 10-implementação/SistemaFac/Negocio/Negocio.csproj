@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\GerenciadorAdministrador.cs" />
     <Compile Include="Business\GerenciadorConvite.cs" />
     <Compile Include="Business\GerenciadorDestinatario.cs" />
     <Compile Include="Business\GerenciadorEmpresa.cs" />

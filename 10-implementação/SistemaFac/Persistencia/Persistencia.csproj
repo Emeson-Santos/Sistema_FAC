@@ -47,16 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Persistencia\RepositorioAdministrador.cs" />
-    <Compile Include="Persistencia\RepositorioConvite.cs" />
-    <Compile Include="Persistencia\RepositorioDestinatario.cs" />
-    <Compile Include="Persistencia\RepositorioEmpresa.cs" />
-    <Compile Include="Persistencia\RepositorioFeedback.cs" />
-    <Compile Include="Persistencia\RepositorioItemListaPresentes.cs" />
-    <Compile Include="Persistencia\RepositorioListaPresente.cs" />
-    <Compile Include="Persistencia\RepositorioServico.cs" />
-    <Compile Include="Persistencia\RepositorioTipoEvento.cs" />
-    <Compile Include="Persistencia\RepositorioUsuarios.cs" />
+    <Compile Include="Persistence\RepositorioAdministrador.cs" />
+    <Compile Include="Persistence\RepositorioConvite.cs" />
+    <Compile Include="Persistence\RepositorioDestinatario.cs" />
+    <Compile Include="Persistence\RepositorioEmpresa.cs" />
+    <Compile Include="Persistence\RepositorioFeedback.cs" />
+    <Compile Include="Persistence\RepositorioItemListaPresentes.cs" />
+    <Compile Include="Persistence\RepositorioListaPresente.cs" />
+    <Compile Include="Persistence\RepositorioServico.cs" />
+    <Compile Include="Persistence\RepositorioTipoEvento.cs" />
+    <Compile Include="Persistence\RepositorioUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

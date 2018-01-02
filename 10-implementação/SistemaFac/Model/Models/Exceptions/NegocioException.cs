@@ -2,9 +2,10 @@
 
 namespace Model.Models.Exceptions
 {
-    class NegocioException : SistemaFacExceptions
+    public class NegocioException : AplicacaoException
     {
         public NegocioException(string mensagem, Exception excecao) : base(mensagem, excecao) { }
+
         public NegocioException(string mensagem) : base(mensagem) { }
     }
 }

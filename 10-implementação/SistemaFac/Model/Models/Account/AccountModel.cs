@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace Model.Models.Account
 {
     public class LoginModel
     {
         [Required(AllowEmptyStrings = false, ErrorMessage = "O login é obrigatório.")]
-        [StringLength(20, MinimumLength = 5, ErrorMessage = "Deve possuir uma quantidade de caracteres entre 5 e 20.")]
-        [RegularExpression(@"^[a-zA-Z0-9_]{5,20}$", ErrorMessage = "Digite um login válido. Use letras, números e underscore ( _ ).")]
+        [StringLength(40, MinimumLength = 5, ErrorMessage = "Deve possuir uma quantidade de caracteres entre 5 e 40.")]
+        [DataType(DataType.EmailAddress)]
+        [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$", ErrorMessage = "Digite um login válido. Use letras, números e underscore ( _ ).")]
         public string Login { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "A senha é obrigatória.")]

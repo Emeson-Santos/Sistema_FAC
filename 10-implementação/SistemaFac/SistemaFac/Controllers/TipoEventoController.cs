@@ -1,9 +1,8 @@
 ﻿using System.Web.Mvc;
 using Model.Models;
 using Negocio.Business;
-using System.Collections.Generic;
 using SistemaFac.Util;
-using System.Security;
+using System.Collections.Generic;
 
 
 namespace SistemasFAC.Controllers
@@ -24,7 +23,7 @@ namespace SistemasFAC.Controllers
         }
 
         [Authenticated]
-        [CustomAuthorize(NivelAcesso =TipoUsuario.USUARIO,Controladora ="Usuario",MetodoAcao ="Login")]
+        [CustomAuthorize(NivelAcesso = SistemaFac.Util.TipoUsuario.USUARIO,Controladora ="Usuario",MetodoAcao ="Login")]
         public ActionResult Index()
         {
             return View(gerenciador.ObterTodos());

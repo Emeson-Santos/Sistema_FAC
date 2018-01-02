@@ -11,20 +11,22 @@
    
 
   <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Sistema FAC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          @Html.ActionLink("Sistema FAC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+      </div>
+    </div>
+  </div>
+
             //--------------------------------------------------------------------------------
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://localhost:50542/Usuario/Create"><span class="glyphicon glyphicon-user"></span> @Html.ActionLink("Inscrever-se", "Create", "Administrador")</a></li>
+                    <li><a href="http://localhost:50542/Administrador/Create"><span class="glyphicon glyphicon-user"></span> @Html.ActionLink("Inscrever-se", "Create", "Administrador")</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> @Html.ActionLink("Entrar", "Login", "Home")</a></li>
                 </ul>
             </div>

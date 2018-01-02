@@ -67,8 +67,8 @@
     <Compile Include="Models\Exceptions\ControllerException.cs" />
     <Compile Include="Models\Exceptions\ModelException.cs" />
     <Compile Include="Models\Exceptions\NegocioException.cs" />
-    <Compile Include="Models\Exceptions\persistenciaExecption.cs" />
-    <Compile Include="Models\Exceptions\SistemaFacExceptions.cs" />
+    <Compile Include="Models\Exceptions\PersistenceException.cs" />
+    <Compile Include="Models\Exceptions\AplicacaoException.cs" />
     <Compile Include="Models\Convite.cs" />
     <Compile Include="Models\Destinatario.cs" />
     <Compile Include="Models\Empresa.cs" />
