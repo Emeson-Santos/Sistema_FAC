@@ -1,14 +1,29 @@
 ﻿@{
     ViewBag.Title = "System FAC";
-    Layout = "~/Views/Shared/_Layout.cshtml";  
-}
+  <!--  Layout = "~/Views/Shared/_Layout.cshtml";-->
+    }
+<div class="jumbotron">
+    <h1>Sistema FAC</h1>
+    <p class="lead"> O sistema serve pra catalogar as empresas  que tem na região de Itabaiana
+    em relação a festas e eventos de Aniversario, formatura e casamento</p>
+</div>
 
+<div id="slide">
+    <ul>
+        <li style="list-style-type: none; margin-left: -40px; overflow: hidden"><img href="@Url.Action("Index","Home")" src=@Url.Content("~/Content/images/KAZA-FENDI-FESTAS-EVENTOS-SP.jpg") height="300" width="1140" /></li>
+    </ul>
+</div>
+@Styles.Render("~/Scripts/jquery.cycle.all.js")
+@Styles.Render("~/Scripts/jquery-1.8.3.min")
+
+
+<!--
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     
+     -->
 <!------------------------------------------------------------------------------------------------------------------->
 <!--<br><br><br>
 <div class="dropdown ">

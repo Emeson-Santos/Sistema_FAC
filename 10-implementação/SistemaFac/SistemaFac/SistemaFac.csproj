@@ -203,8 +203,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Servico\Index.cshtml" />
     <Content Include="Views\Servico\Create.cshtml" />
@@ -212,7 +210,6 @@
     <Content Include="Views\Servico\Delete.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_LayoutEmpresa.cshtml" />
-    <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAdministrador .cshtml" />
     <Content Include="Views\Servico\Details.cshtml" />
     <Content Include="Views\Usuario\Cadastrar.cshtml" />
