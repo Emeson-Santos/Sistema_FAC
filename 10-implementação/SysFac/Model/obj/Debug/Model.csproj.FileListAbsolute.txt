@@ -1,0 +1,9 @@
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.dll.config
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.dll
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.pdb
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.dll
+C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.pdb
