@@ -22,8 +22,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://localhost:50542/Administrador/Create"><!--<span class="glyphicon glyphicon-user"></span>--> @Html.ActionLink("Inscrever-se", "Create", "Administrador")</a></li>
-                    <li><a href="#"><!--<span class="glyphicon glyphicon-log-in"></span>--> @Html.ActionLink("Entrar","Login","Home")</a></li>
+                    <li><a href="@Url.Action("Create","Index")"><!--<span class="glyphicon glyphicon-user"></span>--> @Html.ActionLink("Tela_Empresario", "Create", "Empresa")</a></li>
+                    <li><a href="@Url.Action("Create","Index")"><!--<span class="glyphicon glyphicon-user"></span>--> @Html.ActionLink("Tela_Administrador", "Create", "Administrador")</a></li>
+                    <li><a href="@Url.Action("Cadastrar","Index")"><!--<span class="glyphicon glyphicon-user"></span>--> @Html.ActionLink("Inscrever-se", "Cadastrar", "Usuario")</a></li>
+                    <li><a href="@Url.Action("Login","Index")"><!--<span class="glyphicon glyphicon-log-in"></span>--> @Html.ActionLink("Entrar","Login","Usuario")</a></li>
                 </ul>
             </div>
         </div>

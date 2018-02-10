@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
-//using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace Model.Models
 {
@@ -161,7 +161,7 @@ namespace Model.Models
         }
 
         [Required]
-        [StringLength(20, MinimumLength = 8)]
+        [StringLength(200, MinimumLength = 8)]
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
         public string SenhaUsuario

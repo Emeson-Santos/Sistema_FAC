@@ -8,8 +8,8 @@ using Model.Models.Exceptions;
 
 namespace SistemaFac.Controllers
 {
-    [Authenticated]
-    [CustomAuthorize(NivelAcesso = Util.TipoUsuario.EMPRESA)]
+   // [Authenticated]
+   // [CustomAuthorize(NivelAcesso = Util.TipoUsuario.EMPRESA)]
     public class EmpresaController : Controller
     {
 

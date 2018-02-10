@@ -17,6 +17,94 @@
         <hr />
         <dl class="dl-horizontal">
             <dt>
+                @Html.DisplayNameFor(model => model.NomeUsuario)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NomeUsuario)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MatriculaUsuario)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MatriculaUsuario)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Endereco)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Bairro)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Cep)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Cep)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Cidade)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.NomeMae)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NomeMae)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EmailUsuario)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EmailUsuario)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SenhaUsuario)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SenhaUsuario)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DataNascimento)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TipoUsuario)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TipoUsuario)
+            </dd>
+    
+            <dt>
                 @Html.DisplayNameFor(model => model.IdEmpresa)
             </dt>
     
@@ -35,7 +123,7 @@
         </dl>
     </div>
     <p>
-        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IdUsuario }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
 </body>

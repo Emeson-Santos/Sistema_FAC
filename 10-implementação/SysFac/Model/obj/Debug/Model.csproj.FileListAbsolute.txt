@@ -7,3 +7,12 @@ C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csprojRe
 C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.dll
 C:\wamp\www\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.pdb
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.dll.config
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.dll
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\bin\Model.pdb
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.dll
+C:\Users\Emeson\Desktop\Sistema_FAC\10-implementação\SysFac\Model\obj\Debug\Model.pdb

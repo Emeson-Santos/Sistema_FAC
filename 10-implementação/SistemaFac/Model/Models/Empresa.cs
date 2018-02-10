@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Model.Models
 {
-    public class Empresa
+    public class Empresa : Usuario
     {
 
 

@@ -22,8 +22,8 @@ namespace SistemasFAC.Controllers
             gerenciador = new GerenciadorTipoEventos();
         }
 
-        [Authenticated]
-        [CustomAuthorize(NivelAcesso = SistemaFac.Util.TipoUsuario.USUARIO,Controladora ="Usuario",MetodoAcao ="Login")]
+       // [Authenticated]
+       // [CustomAuthorize(NivelAcesso = SistemaFac.Util.TipoUsuario.USUARIO,Controladora ="Usuario",MetodoAcao ="Login")]
         public ActionResult Index()
         {
             return View(gerenciador.ObterTodos());
