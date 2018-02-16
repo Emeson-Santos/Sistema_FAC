@@ -130,16 +130,14 @@ namespace SistemaFac.Controllers
                 if (ModelState.IsValid)
                 {
                     collection["SenhaUsuario"] = Criptografia.GerarHashSenha(collection["EmailUsuario"] + collection["SenhaUsuario"]);
+
                     Usuario usuario = new Usuario();
                     TryUpdateModel<Usuario>(usuario, collection.ToValueProvider());
                    
                         Usuario auxiliar = usuario;
                         auxiliar.IdUsuario = gerenciador.ObterByMatricula(usuario.MatriculaUsuario).IdUsuario;
                         gerenciador.Editar(auxiliar);
-
-
-                        return RedirectToAction("Login");                
-
+                        return RedirectToAction("Login");    
                 }
 
                 return View();
