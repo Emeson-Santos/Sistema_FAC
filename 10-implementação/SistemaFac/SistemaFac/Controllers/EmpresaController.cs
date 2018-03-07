@@ -46,34 +46,31 @@ namespace SistemaFac.Controllers
         {
             return View();
         }
-
         [HttpPost]
-        public ActionResult Create(FormCollection dadosForm)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(FormCollection collection)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
+                    collection["SenhaUsuario"] = Criptografia.GerarHashSenha(collection["EmailUsuario"] + collection["SenhaUsuario"]);
 
-                    Usuario u = new Usuario();
-                    TryUpdateModel<Usuario>(u, dadosForm.ToValueProvider());
-                    if (!usuarioGerenciador.BuscarMatricula(u.MatriculaUsuario))
-                    {
-                        usuarioGerenciador.Adicionar(u);
-                        return RedirectToAction("Index");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Matricula já existente.");
-                    }
+                    Usuario usuario = new Usuario();
+                    TryUpdateModel<Usuario>(usuario, collection.ToValueProvider());
+                    usuarioGerenciador.Adicionar(usuario);
 
+
+                    return RedirectToAction("Login" , "Usuario");
                 }
-                else
-                {
-                    return RedirectToAction("Index");
-                }
+
                 return View();
             }
+            catch
+            {
+                return View();
+            }
+            /*
             catch (ControllerException e)
             {
                 throw new ControllerException("Não foi possivél completar a acão", e);
@@ -81,7 +78,7 @@ namespace SistemaFac.Controllers
             catch (Exception e)
             {
                 throw new ControllerException("Não foi possivél completar a acão", e);
-            }
+            }*/
         }
 
         public ActionResult Edit(int? id)

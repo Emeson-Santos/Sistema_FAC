@@ -209,11 +209,8 @@
     <Content Include="Views\Servico\Edit.cshtml" />
     <Content Include="Views\Servico\Delete.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\_LayoutEmpresa.cshtml" />
-    <Content Include="Views\Shared\_LayoutAdministrador .cshtml" />
     <Content Include="Views\Servico\Details.cshtml" />
     <Content Include="Views\Usuario\Cadastrar.cshtml" />
-    <Content Include="Views\Administrador\Index.cshtml" />
     <Content Include="Views\Administrador\Details.cshtml" />
     <Content Include="Views\Administrador\Create.cshtml" />
     <Content Include="Views\Administrador\Edit.cshtml" />
@@ -229,6 +226,8 @@
     <Content Include="Views\TipoEvento\Edit.cshtml" />
     <Content Include="Views\TipoEvento\Delete.cshtml" />
     <Content Include="Views\TipoEvento\Index.cshtml" />
+    <Content Include="Views\Administrador\OpcoesAdministrador.cshtml" />
+    <Content Include="Views\Administrador\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
