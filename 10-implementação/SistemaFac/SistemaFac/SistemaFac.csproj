@@ -219,7 +219,7 @@
     <Content Include="Views\Empresa\Index.cshtml" />
     <Content Include="Views\Empresa\Details.cshtml" />
     <Content Include="Views\Empresa\Create.cshtml" />
-    <Content Include="Views\Empresa\Edit.cshtml" />
+    <Content Include="Views\Empresa\.cshtml" />
     <Content Include="Views\Empresa\Delete.cshtml" />
     <Content Include="Views\TipoEvento\Create.cshtml" />
     <Content Include="Views\TipoEvento\Details.cshtml" />
